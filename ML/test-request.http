@@ -1,0 +1,26 @@
+POST http://127.0.0.1:8000/predict-iris
+Content-Type: application/json
+
+{
+    "sepal_length_cm": 3.1,
+    "sepal_width_cm": 2.7
+}
+
+### 
+POST http://127.0.0.1:8000/predict-iris
+Content-Type: application/json
+
+{
+    "sepal_length_cm": 8.3,
+    "sepal_width_cm": 3.1
+}
+
+### 
+POST http://127.0.0.1:8000/predict-iris
+Content-Type: application/json
+
+{
+    "sepal_length_cm": 4.3,
+    "sepal_width_cm": 2.0
+}
+
